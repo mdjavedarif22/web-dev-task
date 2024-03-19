@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: mediumaquamarine;
+    position: relative;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.company-description {
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.company-description p {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.team {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.team-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 30px;
+    margin: 30px;
+    
+}
+
+.user-icons a {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 30px;
+
+    
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+.user-icons p {
+    margin: 20px;
+}
+
+.user-icons a i {
+    font-size: 50px;
+    color: #007bff;
+    transition: all 0.3s;
+
+}
+
+.user-icons a:hover i {
+    font-size: 70px;
+}
+
+.team-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+
+    font-size: 24px;
+    
+}
+
+
+.team-button:hover {
+    background-color: #0056b3;
+}
+
+
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.team-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
